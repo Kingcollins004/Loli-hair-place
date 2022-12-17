@@ -1,0 +1,118 @@
+$primary-colour: #f5eabe;
+$secondary-colour: black;
+$cardcolor: #ead68f;
+.items {
+  // background-color: $primary-colour;
+  width: fit-content;
+  // flex: 1;
+}
+
+.items img {
+  width: 250px;
+  height: 270px;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+.slick-slider {
+  display: flex;
+  margin: 0px 8%;
+  padding: 20px;
+  background-color: $primary-colour;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.slick-slide {
+  width: fit-content;
+  margin: 0px -60px;
+  // overflow: hidden;
+  div {
+    width: fit-content;
+  }
+}
+// .slick-list {
+//   background-color: aqua;
+//   margin: 0px -20px;
+// }
+.Carousel {
+  overflow: hidden;
+  cursor: grab;
+}
+.new-arrival-section {
+  margin: 0px 8%;
+}
+.heading {
+  display: flex;
+
+  h1 {
+    flex: 1;
+  }
+  h4 {
+    flex: 1;
+    text-align: end;
+  }
+}
+.img-container {
+  display: flex;
+  p {
+    margin-top: 0px;
+  }
+  img {
+    width: 152px;
+    height: 152px;
+  }
+  // text-align: center;
+  .wigs {
+    flex: 1;
+  }
+  .attach {
+    flex: 1;
+  }
+  .bags {
+    flex: 1;
+  }
+  .shoes {
+    flex: 1;
+  }
+}
+.categories {
+  margin: 0px 8%;
+}
+.cate-containers {
+  display: flex;
+
+  .cate-div-cont {
+    display: flex;
+    flex: 1.5;
+  }
+  .cate-div {
+    flex: 1;
+  }
+  .card-container {
+    flex: 1;
+    background-color: $cardcolor;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  .btn {
+    background-color: $cardcolor;
+    border: none;
+    display: block;
+    width: 83%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+.card-btn {
+  background-color: #ada584;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0px 5px 5px 0px;
+}
+.input {
+  height: 33px;
+  border: none;
+  width: 60%;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+}

@@ -1,0 +1,217 @@
+$buttonColour: #f5eabe;
+$TextColour: black;
+
+.header-container {
+  display: flex;
+  padding: 20px 8%;
+}
+.logo {
+  margin-top: 5px;
+  flex: 1;
+}
+.navs {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  margin-top: 5px;
+}
+.navs a {
+  flex: 1;
+  color: $TextColour;
+  font-weight: 500;
+  text-decoration: none;
+}
+.btns {
+  flex: 1;
+  justify-content: end;
+  display: flex;
+}
+.button {
+  margin: 0px 5px;
+  height: 30px;
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  background-color: #ead68f;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 1%;
+}
+.footer {
+  background-color: #f5eabe;
+  padding-bottom: 25px;
+  .logof {
+    margin: 0px 5%;
+    padding-top: 25px;
+  }
+}
+.footer-link {
+  display: flex;
+  margin: 0px 5%;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .help-links {
+    flex: 1;
+  }
+  .about-links {
+    flex: 1;
+  }
+}
+.create-section {
+  background-image: url("../Images/Loli’s_Hairplace-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .create-account {
+    text-align: center;
+    width: 30%;
+    padding: 10% 35%;
+  }
+  .input-field {
+    text-align: center;
+  }
+  .input {
+    display: flex;
+    width: 95%;
+    margin: 10px 5px;
+    flex-direction: column;
+    height: 110px;
+
+    input {
+      width: 100%;
+      flex: 1;
+      height: 64px;
+      border-radius: 5px;
+      border: 1px solid black;
+      outline: none;
+      padding-left: 10px;
+    }
+  }
+  .auto-log {
+    display: flex;
+    button {
+      flex: 1;
+      background-color: #ead68f;
+      border-radius: 5px;
+      border: none;
+      height: 35px;
+      margin: 0px 5px;
+      text-align: left;
+      padding: 10px;
+    }
+  }
+}
+.password {
+  margin-top: 10px;
+}
+.sub-script {
+  display: flex;
+  width: 97%;
+  p {
+    margin: 0px 5px;
+    flex: 1;
+    text-align: left;
+  }
+  .link {
+    flex: 1.7;
+    text-align: left;
+  }
+}
+.btn {
+  height: 35px;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ead68f;
+  font-size: medium;
+}
+
+// sign up section design
+.create-section-s {
+  background-image: url("../Images/Loli’s_Hairplace-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  .create-account-s {
+    text-align: center;
+    width: 30%;
+    padding: 10% 35%;
+  }
+  .input-field-s {
+    text-align: center;
+  }
+  .auto-log-s {
+    display: flex;
+    button {
+      flex: 1;
+      background-color: #ead68f;
+      border-radius: 5px;
+      border: none;
+      height: 35px;
+      text-align: left;
+      padding: 10px;
+    }
+    .google {
+      margin-right: 5px;
+    }
+  }
+  .input-s {
+    display: flex;
+    flex-direction: column;
+    // for name div
+    .names {
+      display: flex;
+      margin: 10px 0px;
+      .Fname {
+        flex: 1;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-right: 3px;
+        padding-left: 10px;
+      }
+      .Lname {
+        flex: 1;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-left: 3px;
+        padding-left: 10px;
+      }
+    }
+  }
+  .email {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+  }
+  .password {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+  }
+  .sub-script-s {
+    display: flex;
+    width: 97%;
+    p {
+      margin: 0px 5px;
+      flex: 1;
+      text-align: left;
+    }
+    .link-s {
+      flex: 1.5;
+      text-align: left;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

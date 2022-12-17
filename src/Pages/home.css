@@ -1,0 +1,122 @@
+.items {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.items img {
+  width: 250px;
+  height: 270px;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+
+.slick-slider {
+  display: flex;
+  margin: 0px 8%;
+  padding: 20px;
+  background-color: #f5eabe;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.slick-slide {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px -60px;
+}
+.slick-slide div {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.Carousel {
+  overflow: hidden;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.new-arrival-section {
+  margin: 0px 8%;
+}
+
+.heading {
+  display: flex;
+}
+.heading h1 {
+  flex: 1;
+}
+.heading h4 {
+  flex: 1;
+  text-align: end;
+}
+
+.img-container {
+  display: flex;
+}
+.img-container p {
+  margin-top: 0px;
+}
+.img-container img {
+  width: 152px;
+  height: 152px;
+}
+.img-container .wigs {
+  flex: 1;
+}
+.img-container .attach {
+  flex: 1;
+}
+.img-container .bags {
+  flex: 1;
+}
+.img-container .shoes {
+  flex: 1;
+}
+
+.categories {
+  margin: 0px 8%;
+}
+
+.cate-containers {
+  display: flex;
+}
+.cate-containers .cate-div-cont {
+  display: flex;
+  flex: 1.5;
+}
+.cate-containers .cate-div {
+  flex: 1;
+}
+.cate-containers .card-container {
+  flex: 1;
+  background-color: #ead68f;
+  padding: 2%;
+  border-radius: 10px;
+}
+.cate-containers .btn {
+  background-color: #ead68f;
+  border: none;
+  display: block;
+  width: 83%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-btn {
+  background-color: #ada584;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.input {
+  height: 33px;
+  border: none;
+  width: 60%;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+}/*# sourceMappingURL=home.css.map */

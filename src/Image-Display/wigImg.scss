@@ -1,0 +1,43 @@
+.flexing {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.listdisp img {
+  width: 220px;
+  height: 300px;
+  object-fit: cover;
+}
+.listdisp {
+  //   margin: 2%;
+  //   border: 1px solid #d19e4f;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2% 2% 2% 0%;
+}
+.listdisp:hover {
+  cursor: pointer;
+}
+.display-img {
+  border-radius: 15px;
+  height: 250px;
+}
+.display-name {
+  width: 100%;
+  text-align: left;
+  color: black;
+  margin: 0px;
+  margin: 5px 0px;
+  font-weight: 500;
+}
+.display-price {
+  text-align: left;
+  width: 100%;
+  color: black;
+  margin: 5px 0px;
+  font-weight: 500;
+}
+.text {
+  text-decoration: none;
+}

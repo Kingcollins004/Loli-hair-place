@@ -1,0 +1,222 @@
+@charset "UTF-8";
+.header-container {
+  display: flex;
+  padding: 20px 8%;
+}
+
+.logo {
+  margin-top: 5px;
+  flex: 1;
+}
+
+.navs {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  margin-top: 5px;
+}
+
+.navs a {
+  flex: 1;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btns {
+  flex: 1;
+  justify-content: end;
+  display: flex;
+}
+
+.button {
+  margin: 0px 5px;
+  height: 30px;
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  background-color: #ead68f;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.footer {
+  background-color: #f5eabe;
+  padding-bottom: 25px;
+}
+.footer .logof {
+  margin: 0px 5%;
+  padding-top: 25px;
+}
+
+.footer-link {
+  display: flex;
+  margin: 0px 5%;
+}
+.footer-link a {
+  text-decoration: none;
+  color: black;
+}
+.footer-link .links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link .help-links {
+  flex: 1;
+}
+.footer-link .about-links {
+  flex: 1;
+}
+
+.create-section {
+  background-image: url("../Images/Loli’s_Hairplace-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.create-section .create-account {
+  text-align: center;
+  width: 30%;
+  padding: 10% 35%;
+}
+.create-section .input-field {
+  text-align: center;
+}
+.create-section .input {
+  display: flex;
+  width: 95%;
+  margin: 10px 5px;
+  flex-direction: column;
+  height: 110px;
+}
+.create-section .input input {
+  width: 100%;
+  flex: 1;
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  padding-left: 10px;
+}
+.create-section .auto-log {
+  display: flex;
+}
+.create-section .auto-log button {
+  flex: 1;
+  background-color: #ead68f;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  margin: 0px 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.password {
+  margin-top: 10px;
+}
+
+.sub-script {
+  display: flex;
+  width: 97%;
+}
+.sub-script p {
+  margin: 0px 5px;
+  flex: 1;
+  text-align: left;
+}
+.sub-script .link {
+  flex: 1.7;
+  text-align: left;
+}
+
+.btn {
+  height: 35px;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ead68f;
+  font-size: medium;
+}
+
+.create-section-s {
+  background-image: url("../Images/Loli’s_Hairplace-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.create-section-s .create-account-s {
+  text-align: center;
+  width: 30%;
+  padding: 10% 35%;
+}
+.create-section-s .input-field-s {
+  text-align: center;
+}
+.create-section-s .auto-log-s {
+  display: flex;
+}
+.create-section-s .auto-log-s button {
+  flex: 1;
+  background-color: #ead68f;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  text-align: left;
+  padding: 10px;
+}
+.create-section-s .auto-log-s .google {
+  margin-right: 5px;
+}
+.create-section-s .input-s {
+  display: flex;
+  flex-direction: column;
+}
+.create-section-s .input-s .names {
+  display: flex;
+  margin: 10px 0px;
+}
+.create-section-s .input-s .names .Fname {
+  flex: 1;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 3px;
+  padding-left: 10px;
+}
+.create-section-s .input-s .names .Lname {
+  flex: 1;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 3px;
+  padding-left: 10px;
+}
+.create-section-s .email {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+.create-section-s .password {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+.create-section-s .sub-script-s {
+  display: flex;
+  width: 97%;
+}
+.create-section-s .sub-script-s p {
+  margin: 0px 5px;
+  flex: 1;
+  text-align: left;
+}
+.create-section-s .sub-script-s .link-s {
+  flex: 1.5;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=component.css.map */
